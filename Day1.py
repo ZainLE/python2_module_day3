@@ -9,6 +9,6 @@ b = np.random.rand(10000, 10000).astype(np.float32)
 
 test = np.matmul(a, b)
 
-print("--- %s seconds ---" % (time.time() - start_time))
+print("--- %s secondspassedin2 ---" % (time.time() - start_time))
 
 print(test[0:10, 0:10])
